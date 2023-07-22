@@ -1,20 +1,22 @@
+import "./Header.css";
 
-
-function Header() {
+export const Header = () => {
     return (
-    <>
-      <div className="App">
-        <header className="App-header">
-          <ul>
-            <li>HOME</li>
-            <li>WORKS</li>
-            <li>BLOG</li>
+    <header>
+      <div className="header-div">
+          <ul class="nav-left">
+            <li><a href="./">HOME</a></li>
+            <li><a href="./">WORKS</a></li>
+            <li><a href="./">BLOGS</a></li>
           </ul>
-        </header>
       </div>
-    </>
+      <div className="nav-right">
+        <ul>
+          <li><a href="https://twitter.com/tttyama1030">Twitter</a></li>
+          <li><a href="https://qiita.com/dakkenkd425">Qiita</a></li>
+          <li><a href="https://github.com/dakkenkd">GitHub</a></li>
+        </ul>
+      </div>
+    </header>
     );
   }
-  
-  export default Header;
-  

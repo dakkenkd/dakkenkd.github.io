@@ -1,6 +1,6 @@
 
 
-function Footer() {
+export const Footer = () => {
     return (
     <>
       <div className="Footer">
@@ -9,6 +9,3 @@ function Footer() {
     </>
     );
   }
-  
-  export default Footer;
-  

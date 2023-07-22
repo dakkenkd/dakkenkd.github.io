@@ -1,0 +1,29 @@
+header {
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+li a {
+    padding: 15px;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+}
+
+.nav-left {
+    float: left;
+    padding: 30px;
+    align-items: center;
+}
+
+.nav-right {
+    float: right;
+    padding: 30px;
+}
