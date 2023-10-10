@@ -1,7 +1,16 @@
+.pc { display: block !important; }
+.sp { display: none !important; }
+
+@media only screen and (max-width: 750px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
+
 header {
     position: relative;
     height: 100px;
     width: 100%;
+    font-family: 'Cabin', sans-serif;
 }
 
 li {
@@ -14,7 +23,6 @@ li a {
     font-family: 'Cabin', sans-serif;
     text-decoration: none;
     color: black;
-    font-family: 'Cabin', sans-serif;
 }
 
 .nav-left {
@@ -27,3 +35,4 @@ li a {
     float: right;
     padding: 30px;
 }
+
